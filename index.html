@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Finder</h1>
+    </header>
+    <div class="container">
+        {% for recipe in recipes %}
+        <div class="recipe">
+            <h2><a href="/{{ recipe['id'] }}">{{ recipe['title'] }}</a></h2>
+            <p>{{ recipe['ingredients'] }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
