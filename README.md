@@ -1,7 +1,7 @@
-# Recipe Finder Application
+# Recipe Application
 
 ## Description
-The Recipe Finder Application is a web-based application designed to help users discover recipes based on ingredients they like. It features a collection of dishes with detailed cooking instructions. 
+The Recipe Application is a web-based application designed to help users discover recipes based on ingredients they like. It features a collection of dishes with detailed cooking instructions. 
 This application utilizes Flask for the backend, HTML and CSS for a simple yet effective user interface, and SQLite for database management.
 
 ## Features
